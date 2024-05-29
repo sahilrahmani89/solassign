@@ -28,11 +28,24 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.flex-pro{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.parent{
+  padding:0 50px;
+  margin-top: 30px;
+}
+@media (min-width:768px){
+  .parent{
+    padding:0 50px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media(min-width:1280px){
+  .parent{
+    padding:0 100px;
   }
 }
